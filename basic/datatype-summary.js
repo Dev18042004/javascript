@@ -28,3 +28,22 @@ const myFunction=function() {
 }
 
 console.log(typeof outsideTemp);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//type of memory stack (primitive),heap(Non-primitive)
+
+let myyoutubename="devpatelcom"
+
+let anothername=myyoutubename
+anothername="chaiaurcode"
+console.log(myyoutubename);
+console.log(anothername);
+let userone={
+    email:"dev@google.com",
+    upi:"dev@paytm",
+}
+let usertwo=userone
+usertwo.email="dev@google.com"
+console.log(userone);
+console.log(usertwo);
